@@ -1,7 +1,7 @@
-- title: Documentation
+- title: About Us
   url: docs
   links:
-    - title: "Getting Started"
+    - title: "시작하며"
       url: "docs/getting-started"
       children:
         - title: Features
@@ -14,10 +14,10 @@
       url: "about"
     - title: "News"
       url: "news"
-- title: "Extras"
-  url: "docs/extras"
+- title: "Posts"
+  url: "docs/posts"
   links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
+    - title: 기획
+      url: "docs/posts/example-quiz"
+    - title: 개발
       url: "tags"

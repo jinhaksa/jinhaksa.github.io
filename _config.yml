@@ -14,30 +14,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Docsy Jekyll
-email: your-email@domain.com
-author: Dinosaur Avocado
+title: 전략프로젝트팀 기술 블러그
+email: strategypro@jinhak.com
+author: 전략프로젝트팀
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
+  진학사의 개발팀 중 하나인 전략프로젝트팀이 프로젝트를 진행하면서 고민하고 학습한 내용을 공유합니다. 
+  개발자 개개인이 학습하고 경험한 고유한 가치를 축적하여 (for
   Google search results) and in your feed.xml site description.
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://vsoch.github.io" # the base hostname & protocol for your site
+url: "https://jinhaksa.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
-github_user: "vsoch"
-github_repo: "docsy-jekyll"
+repo: "https://github.com/jinhaksa"
+github_user: "jinhaksa"
+github_repo: "jinhaksa"
 github_branch: "master"
 
 # Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
+#twitter: vsoch
+#linkedin: vsochat
+dockerhub: jinhaksa
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
