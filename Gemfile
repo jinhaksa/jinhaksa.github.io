@@ -25,3 +25,7 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "just-the-docs"
 gem "webrick", "~> 1.7"
+gem "wdm", ">= 0.1.0"
+
+# install ruby eventmachine
+gem "eventmachine", "~> 1.0.0"

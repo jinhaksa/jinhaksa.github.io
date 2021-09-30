@@ -24,7 +24,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     ethon (0.14.0)
       ffi (>= 1.15.0)
-    eventmachine (1.2.7-x64-mingw32)
+    eventmachine (1.0.9.1)
     execjs (2.8.1)
     faraday (1.8.0)
       faraday-em_http (~> 1.0)
@@ -270,6 +270,7 @@ GEM
       unf_ext
     unf_ext (0.0.8-x64-mingw32)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
     webrick (1.7.0)
     zeitwerk (2.4.2)
 
@@ -277,8 +278,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  eventmachine (~> 1.0.0)
   github-pages
   just-the-docs
+  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 RUBY VERSION
