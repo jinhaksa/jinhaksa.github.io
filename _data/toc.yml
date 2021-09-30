@@ -20,6 +20,6 @@
   url: "docs/posts"
   links:
     - title: 기획
-      url: "docs/posts/example-quiz"
+      url: "pm"
     - title: 개발
       url: "dev"

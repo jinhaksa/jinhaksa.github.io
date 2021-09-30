@@ -212,8 +212,8 @@ rest_total_hits_as_int=true 옵션으로 숫자로 변경 가능
   "hits": {
     "max_score": 1.0,
     "total": {
-      **"value": 10000,
-      "relation": "gte"**
+      "value": 10000,
+      "relation": "gte"
     },
     "hits": ...
   }
@@ -234,5 +234,4 @@ GET /kibana_sample_data_flights/_search
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html)  
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/span-queries.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/span-queries.html)  
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html)  
-[https://jaimemin.tistory.com/m/1880?category=1216055](https://jaimemin.tistory.com/m/1880?category=1216055)  
-
+[https://jaimemin.tistory.com/m/1880?category=1216055](https://jaimemin.tistory.com/m/1880?category=1216055)
