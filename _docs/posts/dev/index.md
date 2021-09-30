@@ -6,7 +6,7 @@ tags:
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.categories.dev %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>    
