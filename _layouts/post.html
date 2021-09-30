@@ -8,8 +8,9 @@ layout: page
   class="badge badge-{{ badge.type }}"
   >{{ badge.tag }}</span
 >{% endfor %}{% endif %}
-<span class="post-date" style="font-style: italic"
-  >{{ page.date | date: "%B %d, %Y" }}</span
+<span class="post-date"
+  >등록일: {{ page.date | date: "%Y/%m/%e" }} | 마지막 수정일: {{ "now" | date:
+  "%Y/%m/%e" }}</span
 >
 {% if page.author %}
 <p>
