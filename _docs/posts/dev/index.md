@@ -1,5 +1,6 @@
 ---
-title: Dev
+title: 개발
+permalink: /dev/
 description: 개발 포스팅
 tags:
   - dev
