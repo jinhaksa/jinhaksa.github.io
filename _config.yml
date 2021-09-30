@@ -96,3 +96,4 @@ defaults:
       layout: "post"
 
 theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
