@@ -14,7 +14,7 @@ description: 로그스태시 7버전 업그레이드
 ## Elasticsearch 7.0 주요 변경 사항 정리
 
 Elasticsearch 7.0 이 2019년 4월에 출시되었다.  
-현재 사용하고 있는 엘라스틱서치 6 버전에서 업그레이드를 하기 전 주요 변경사항을 공식 도큐먼트롤 보며 정리해봤다.
+현재 사용하고 있는 엘라스틱서치 6 버전에서 업그레이드를 하기 전 주요 변경사항을 공식 도큐먼트를 보며 정리해봤다.
 
 모든 변경 사항들이 중요하겠지만, 실질적으로 사용하고 있고 변경 사항부터 정리했다.
 
@@ -36,12 +36,12 @@ standard_html_strip 분석기는 지원이 중단되었으므로, standard(token
 
 ### nGram edgeNGram 토큰 필터는 새로운 인덱스에서 사용 중단
 
-6.x에서 사용되던 nGram과 edgeNGram 토큰 필터 이름은 ngram과 edge_ngram 으로 변경하여 사용해야합니다.  
+6.x에서 사용되던 nGram과 edgeNGram 토큰 필터 이름은 ngram과 edge_ngram 으로 변경하여 사용해야 합니다.  
 (7.0에서 계속하여 읽기는 가능)
 
 ### ngramTokenFilter 및 ngramTokenizer 에서의 max_size와 min_size 제한
 
-NGramTokenFilter, NGramTokenizer 의 max_ngram/min_ngram가 1로 제한 되었습니다.  
+NGramTokenFilter, NGramTokenizer 의 max_ngram/min_ngram가 1로 제한되었습니다.  
 해당 제한은 index.max_ngram_diff 설정으로 변경할 수 있습니다.
 
 ---
