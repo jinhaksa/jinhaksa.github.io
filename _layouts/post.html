@@ -1,8 +1,21 @@
 ---
 layout: page
 ---
+
 <!-- Copyright 2019-2021 Vanessa Sochat-->
-<h1 style="margin-bottom:0px">{{ page.title }}</h1>
-{% if page.badges %}{% for badge in page.badges %}<span class="badge badge-{{ badge.type }}">{{ badge.tag }}</span>{% endfor %}{% endif %}
-<span class="post-date" style="font-style: italic;">{{ page.date | date: "%B %d, %Y" }}</span>
+<h1 style="margin-bottom: 0px">{{ page.title }}</h1>
+{% if page.badges %}{% for badge in page.badges %}<span
+  class="badge badge-{{ badge.type }}"
+  >{{ badge.tag }}</span
+>{% endfor %}{% endif %}
+<span class="post-date" style="font-style: italic"
+  >{{ page.date | date: "%B %d, %Y" }}</span
+>
+{% if page.author %}
+<p>
+  By <strong>{{ page.author }}</strong>{% if page.email %} |
+  <a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}
+</p>
+{% endif %}
+<br />
 {{ content }}
