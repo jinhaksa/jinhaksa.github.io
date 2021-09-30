@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Logstash Upgrade
+title: ELK 업그레이드(1)
 categories: [dev]
-tags:
-  - logstash
-  - upgrade
-  - 7
-description: 로그스태시 7버전 업그레이드
+author: 고동하
+email: godongha@jinhakapply.com
 date: 2021-09-30
+tag:
+  - ELK
+  - Elastic
 ---
 
 <!-- @format -->
 
-# 로그스태시 업그레이드(1)
+# ELK 업그레이드(1)
 
 ## Elasticsearch 7.0 주요 변경 사항 정리
 
