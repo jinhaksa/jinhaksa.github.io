@@ -12,8 +12,6 @@ tag:
 
 <!-- @format -->
 
-# ELK 업그레이드(1)
-
 ## Elasticsearch 7.0 주요 변경 사항 정리
 
 Elasticsearch 7.0 이 2019년 4월에 출시되었다.  
