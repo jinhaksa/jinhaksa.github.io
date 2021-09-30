@@ -1,5 +1,6 @@
 ---
 title: Logstash Upgrade
+categories: [dev]
 tags:
   - logstash
   - upgrade
