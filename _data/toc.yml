@@ -1,3 +1,5 @@
+# @format
+
 - title: About Us
   url: docs
   links:
@@ -21,3 +23,5 @@
       url: "docs/posts/example-quiz"
     - title: 개발
       url: "tags"
+    - title: "로그스태시 버전 업그레이드"
+      url: "docs/posts/logstash-upgrade-1"

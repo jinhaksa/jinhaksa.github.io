@@ -282,10 +282,10 @@ DEPENDENCIES
   github-pages
   just-the-docs
   wdm (>= 0.1.0)
-  webrick (~> 1.7)
+  webrick
 
 RUBY VERSION
    ruby 3.0.2p107
 
 BUNDLED WITH
-   2.2.27
+   2.2.28
