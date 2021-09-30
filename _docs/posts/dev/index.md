@@ -8,7 +8,8 @@ tags:
 # 개발
 
 <ul>
-  {% for post in site.categories.dev %}
+  {% assign devPosts = site.categories.dev | sort: "date" | reverse %}
+  {% for post in devPosts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>{% if post.author %} | {{ post.author }} {% endif %} | {{ post.date | date: "%Y/%m/%e" }}
       </li>    

@@ -7,6 +7,7 @@ tags:
   - upgrade
   - 7
 description: 로그스태시 7버전 업그레이드
+date: 2021-09-30
 ---
 
 <!-- @format -->
