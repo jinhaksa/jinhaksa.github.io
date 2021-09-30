@@ -124,7 +124,7 @@ PUT /_cluster/settings
 }
 ```
 
-\*\* terms query 요청에서 사용할 수 있는 terms의 개수 제한
+**terms query 요청에서 사용할 수 있는 terms의 개수 제한**
 
 최대 terms 개수를 65536으로 제한  
 많은 terms를 사용할 경우, 사용한 만큼의 메모리가 필요하여 클러스터 성능이 저하될 수 있음
@@ -231,10 +231,8 @@ GET /kibana_sample_data_flights/_search
 
 참고자료
 
-[https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html)
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html)  
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/span-queries.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/span-queries.html)  
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html)  
+[https://jaimemin.tistory.com/m/1880?category=1216055](https://jaimemin.tistory.com/m/1880?category=1216055)  
 
-[https://www.elastic.co/guide/en/elasticsearch/reference/current/span-queries.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/span-queries.html)
-
-[https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html)
-
-[https://jaimemin.tistory.com/m/1880?category=1216055](https://jaimemin.tistory.com/m/1880?category=1216055)
