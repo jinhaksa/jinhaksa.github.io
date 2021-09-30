@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Logstash Upgrade
 categories: [dev]
 tags:
