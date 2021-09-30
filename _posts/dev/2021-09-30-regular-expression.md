@@ -3,12 +3,11 @@ layout: post
 title: 정규표현식 이해하기
 categories: [dev]
 tags:
-
   - javascript
   - regular expression
-    author: 문재범
-    email: jaebeommun@gmail.com
-    date: 2021-09-30
+author: 문재범
+email: jaebeommun@gmail.com
+date: 2021-09-30
 ---
 
 
