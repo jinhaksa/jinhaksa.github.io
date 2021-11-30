@@ -9,10 +9,7 @@ layout: page
   >{{ badge.tag }}</span
 >{% endfor %}{% endif %}
 <div style="margin-top: 8px">
-  <span class="post-date"
-    >등록일: {{ page.date | date: "%Y/%m/%e" }} | 마지막 수정일: {%
-    last_modified_at %}</span
-  >
+  <span class="post-date">등록일: {{ page.date | date: "%Y/%m/%e" }}</span>
   {% if page.author %}
   <p>
     By <strong>{{ page.author }}</strong>{% if page.email %} |

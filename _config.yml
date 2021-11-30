@@ -97,8 +97,3 @@ defaults:
 
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
-
-plugins:
-  - jekyll-last-modified-at
-last-modified-at:
-    date-format: '%Y/%m/%e'
