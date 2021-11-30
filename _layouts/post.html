@@ -10,8 +10,8 @@ layout: page
 >{% endfor %}{% endif %}
 <div style="margin-top: 8px">
   <span class="post-date"
-    >등록일: {{ page.date | date: "%Y/%m/%e" }} | 마지막 수정일: {%
-    page.last_modified_at %}</span
+    >등록일: {{ page.date | date: "%Y/%m/%e" }} | 마지막 수정일: {{
+    page.last_modified_at }}</span
   >
   {% if page.author %}
   <p>
