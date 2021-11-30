@@ -30,6 +30,8 @@ SQL Server에서 파리미터가 사용된 SP 또는 쿼리(이하 parameterized
 - DATA : AdventureWorks2019(https://docs.microsoft.com/ko-kr/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
 - 예제 참고 : SQL Server 2017 Query Performance Tuning(Chapter 17)
 
+  ![](/assets/img/posts/dev/2021-11-30-parameter-sniffing/ps_6.png)
+
 ```sql
 -- [1] Person.Address.City 컬럼을 'London' 조건으로 검색
 USE AdventureWorks2019;
