@@ -184,6 +184,8 @@ EXEC AddressByCity 'London';
 EXEC AddressByCity 'London' WITH RECOMPILE;
 ```
 
+![](/assets/img/posts/dev/2021-11-30-parameter-sniffing/ps_5.png)
+
 ---
 
 ### 2. 통계 값 사용
