@@ -4,7 +4,7 @@ title: 크롤러 설계 2편 [전략패턴, 템플릿 메서드 패턴]
 categories: [dev]
 author: 문재범
 email: jbm1871@jinhakapply.com
-date: 2021-10-30
+date: 2021-11-30
 tag:
   - design pattern
   - strategy patterm
