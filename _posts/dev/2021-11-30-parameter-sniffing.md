@@ -113,6 +113,8 @@ DBCC SHOW_STATISTICS('Person.Address', 'IX_Address_City');
 DROP INDEX IX_Address_City ON Person.Address;
 ```
 
+![](/assets/img/posts/dev/2021-11-30-parameter-sniffing/ps_5.png)
+
 [3]번 쿼리에서는 프로시저에서 파라미터를 받아 @City로 검색 했을 때, [1]번 쿼리와 같은 실행 결과가 나왔다.  
 프로시저가 실행되면서 파라미터의 들어온 값을 가지고 실행계왹을 세운다. 이와 같은 프로세스가 파라미터 스니핑이다.
 
@@ -183,8 +185,6 @@ EXEC AddressByCity 'London';
 -- 또는 OPTION (RECOMPILE); 을 사용하지 않고
 EXEC AddressByCity 'London' WITH RECOMPILE;
 ```
-
-![](/assets/img/posts/dev/2021-11-30-parameter-sniffing/ps_5.png)
 
 ---
 
