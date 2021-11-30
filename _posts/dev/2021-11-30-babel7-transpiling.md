@@ -35,7 +35,7 @@ Promise 브라우저 목록(출처:[MDN](https://developer.mozilla.org/en-US/doc
 
 Babel 6에서 버전 7으로 넘어오면서 몇가지 변화가 있었습니다. 주목해야 할 점은 config 파일이 .babelrc에서 babel.config.json으로 바뀌면서 .babelrc에서 발생하던 문제(node_modules과의 충돌)가 해결되었고, @babel/polyfill preset이 deprecated 되어 @babel/preset-env와 core-js가 이를 대체하게 되었습니다.
 
-앞서 언급한 @babel/polyfill에는 기본적으로 core-js와 regenerator-runtime이 포함되어 있었습니다. Regenerator-runtime은 페이스북에서 만든, generator function에 대한 polyfill입니다. 그러나 전역 변수가 오염되고 deprecated 되었기 때문에 대신 core-js와 함께 @babel/preset-env를 사용해야 합니다(필요시 regenerator-runtime의 대체재인 @babel/plugin-transform-regenerator을 사용).
+앞서 언급한 @babel/polyfill에는 기본적으로 core-js와 regenerator-runtime이 포함되어 있었습니다. Regenerator-runtime은 페이스북에서 만든, generator function에 대한 polyfill입니다. 그러나 더이상 업데이트가 지원되지 않기 때문에 대신 core-js와 함께 @babel/preset-env를 사용해야 합니다(필요시 regenerator-runtime의 대체재인 @babel/plugin-transform-regenerator을 사용).
 
 Core-js 사용시 전역 스코프를 오염시키지 않으려면 @babel/runtime과 core-js-pure를 사용해야 합니다. 예제에서는 preset-env만 적용하도록 하겠습니다.
 
