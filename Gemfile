@@ -30,7 +30,3 @@ gem "wdm", ">= 0.1.0"
 
 # install ruby eventmachine
 gem "eventmachine", "~> 1.0.0"
-
-group :jekyll_plugins do
-  gem "jekyll-last-modified-at"
-end
