@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IT 서비스 마케팅의 UX/UI
+title: IT 서비스 마케팅의 UX/UI - 랜딩페이지
 categories: [pm]
 author: 김도연
 email: gold7121@jinhakapply.com
