@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parameter Sniffing
+title: Parameter Sniffing (feat.SQL Server)
 categories: [dev]
 author: 고동하
 email: godongha@jinhakapply.com
@@ -12,8 +12,6 @@ tag:
 ---
 
 <!-- @format -->
-
-# Parameter Sniffing (feat.SQL Server)
 
 ## Parameter Sniffing 이란?
 
