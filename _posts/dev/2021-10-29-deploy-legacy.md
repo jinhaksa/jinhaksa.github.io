@@ -1,6 +1,6 @@
 ---
 layout: post
-title: asp.net legacy system에 vuejs & nodejs system 적용하기
+title: asp.net legacy system에 vuejs & nodejs system 적용하기(1탄)
 categories: [dev]
 author: 노혜진
 email: hjroh@jinhakapply.com
