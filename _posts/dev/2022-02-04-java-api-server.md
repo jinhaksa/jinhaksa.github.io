@@ -41,7 +41,7 @@ tomcat8.5는 자바 서블릿 구현체를 실행시켜주는 WAS입니다. 서�
 
 **Window → Preferences → 검색 <Enc>**
 
-![Untitled](/assets/img/posts/dev/2021-02-04-java-api-server/Untitled.png)
+![Untitled](/assets/img/posts/dev/2022-02-04-java-api-server/Untitled.png)
 
 1. **General > Content Types > Text > UTF-8**
 2. **General > Workspace > MS949→UTF8**
@@ -56,7 +56,7 @@ tomcat8.5는 자바 서블릿 구현체를 실행시켜주는 WAS입니다. 서�
 
 프로젝트를 구성해봅시다. 외부 라이브러리를 사용해야 되기 때문에 이를 편하게 관리할 수 있는 관리 도구인 **Maven**(.NET 의 NuGet, Node.js의 npm 같은 역할)을 사용하도록 하겠습니다. (Gradle을 사용해도 된다)
 
-![Untitled](/assets/img/posts/dev/2021-02-04-java-api-server/Untitled 1.png)
+![Untitled](/assets/img/posts/dev/2022-02-04-java-api-server/Untitled 1.png)
 
 1. **Project Explorer 영역 우클릭**
 2. **New > Project**
@@ -66,15 +66,15 @@ tomcat8.5는 자바 서블릿 구현체를 실행시켜주는 WAS입니다. 서�
 6. **Packaging을 클릭하고 모듈 구성시에는 pom으로 프로젝트 구성시에는 war로 설정한다. (만일 프로젝트에 Springboot framework을 사용할 것이라면 jar로 한다. Springboot는 was가 내장되어 있어서 일반적인 자바 배포파일로 동작하기 때문이다.)**
 7. **Finish 버튼 클릭**
 
-![Untitled](/assets/img/posts/dev/2021-02-04-java-api-server/Untitled 2.png)
+![Untitled](/assets/img/posts/dev/2022-02-04-java-api-server/Untitled 2.png)
 
 메이븐 모듈로 생성하고 그 안에 프로젝트를 여러개 만들어서 관리할 수도 있고, 그냥 메이븐 프로젝트 단일로 구성해도 상관없습니다. 만일 모듈로 구성할 경우에 모듈의 Packaging 설정을 pom으로하고 모듈안의 프로젝트는 war로 합니다. 모듈로 구성하면 모듈단에서 공통으로 사용되는 라이브러리를 관리와 빌드 설정이 가능합니다.
 
-![Untitled](/assets/img/posts/dev/2021-02-04-java-api-server/Untitled 3.png)
+![Untitled](/assets/img/posts/dev/2022-02-04-java-api-server/Untitled 3.png)
 
 프로젝트를 구성하면 에러가 발생합니다. 이는 서블릿 설정 파일인 web.xml이 존재하지 않기 때문입니다. Spring Framework 에서는 web.xml 없이도 자바 파일로 web.xml 설정을 대신하는 방법을 지원하기 때문에
 
-![Untitled](/assets/img/posts/dev/2021-02-04-java-api-server/Untitled 4.png)
+![Untitled](/assets/img/posts/dev/2022-02-04-java-api-server/Untitled 4.png)
 
 Generate Deloyment Descriptor Stub을 누르면 web.xml 생성됩니다.
 
@@ -318,7 +318,7 @@ ${key} 문법을 통해서 프로젝트 어디에서나 접근이 가능합니�
 
 기본적으로 [https://mvnrepository.com/](https://mvnrepository.com/) 에서 의존성 정보를 제공합니다.
 
-![Untitled](/assets/img/posts/dev/2021-02-04-java-api-server/Untitled 5.png)
+![Untitled](/assets/img/posts/dev/2022-02-04-java-api-server/Untitled 5.png)
 
 <dependency>요소를 <dependencies>요소 하위에 추가하면 메이븐이 자동으로 해당 라이브러리를 프로젝트에 추가해주고 빌드시에도 같이 패키징됩니다.
 
