@@ -7,9 +7,7 @@ email: jbm1871@jinhakapply.com
 date: 2022-02-04
 tag:
   - java
-  - maven
   - spring
-  - servlet
 	- api
 ---
 
