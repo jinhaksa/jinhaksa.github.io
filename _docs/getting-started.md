@@ -1,8 +1,11 @@
 ---
-title: Getting Started
+title: 팀 기술 블러그를 시작하며
 tags:
-  - jekyll
+  - team
+  - 진학어플라이
+  - 기술 블러그
   - github
+  - 오픈소스
 description: Getting started with Docsy Jekyll
 ---
 
