@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바 웹API 서버 구성하기 (上)
-categories: [pm]
+categories: [dev]
 author: 문재범
 email: jbm1871@jinhakapply.com
 date: 2022-02-04
