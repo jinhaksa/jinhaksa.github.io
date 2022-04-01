@@ -57,7 +57,7 @@ tag:
 
 ## 화면 구성
 
-Header와 메뉴 부분은 asp.net 소스로 구성하고 메뉴 선택에 따른 기능 페이지는 Vue로 구현한 javascript로 구성합니다.
+Header와 메뉴 부분은 asp.net VIEW 소스로 구성하고 메뉴 선택에 따른 기능 페이지는 Vue로 구현한 javascript로 구성합니다.
 ![deploy_screen.png](/assets/img/posts/dev/2021-10-29-deploy-legacy/deploy_screen.png)
 
 ## 구성도
